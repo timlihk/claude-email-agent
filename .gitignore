@@ -1,0 +1,26 @@
+# Sensitive files
+credentials.json
+token.json
+.env
+.env.local
+
+# Logs
+*.log
+*.log.*
+agent-error.log
+
+# Node modules
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Generated files
+git-push.js
+upload-to-github.js
