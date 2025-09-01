@@ -1,0 +1,25 @@
+CLAUDE EMAIL AGENT - QUICK REFERENCE
+=====================================
+
+TO SEND COMMANDS:
+Email yourself with subject: "CLAUDE: status"
+
+MOST USED COMMANDS:
+sudo systemctl status claude-email-agent   # Check if running
+sudo journalctl -u claude-email-agent -f   # View logs
+sudo systemctl restart claude-email-agent  # Restart
+
+AVAILABLE EMAIL COMMANDS:
+- CLAUDE: status
+- CLAUDE: time  
+- CLAUDE: disk
+- CLAUDE: memory
+- CLAUDE: weather
+- CLAUDE: calculate 5+5
+
+FILES:
+~/claude-email-agent/         # Main folder
+~/.config/gmail-api/          # Token location
+
+INSTALLED AS SYSTEM SERVICE: Yes
+AUTO-STARTS ON REBOOT: Yes
